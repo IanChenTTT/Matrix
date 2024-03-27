@@ -13,6 +13,7 @@ void testOperator2();
 
 int main(){
     try{
+        //---------------------ver1 PAST TEST CASE
         // testAdd();
         // showBrLine(10);
         // testSub();
@@ -24,6 +25,9 @@ int main(){
         // testMultNum();
         // showBrLine(10);
         // testDotMat();
+
+        //---------------------ver2 PAST TEST CASE
+        // testAdd();
         // testOperator1();
          testOperator2();
     }
@@ -177,8 +181,6 @@ void testOperator2(){
     I(2, 0) = 0; I(2, 1)=0; I(2,2)=1;
 
     std::cout << A << std::endl;
-    showBrLine(5);
-    std::cout << I << std::endl;
     showBrLine(5);
     A *= I;
     std::cout <<A<< std::endl;
